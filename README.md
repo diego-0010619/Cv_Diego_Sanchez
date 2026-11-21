@@ -1,12 +1,12 @@
 # Diego Alexander Sánchez Henao — Hoja de Vida & Portafolio Interactivo
 
-[![Sitio Web en Vivo](https://img.shields.io/badge/Sitio_Web-diego--0010619.github.io-0d9488?style=for-the-badge)](https://diego-0010619.github.io/)
+[![Sitio Web en Vivo](https://img.shields.io/badge/Sitio_Web-Cv__Diego__Sanchez-0d9488?style=for-the-badge)](https://diego-0010619.github.io/Cv_Diego_Sanchez/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-diegosanc-2563eb?style=for-the-badge)](https://www.linkedin.com/in/diegosanc)
 [![JSON Resume](https://img.shields.io/badge/CV_Estructurado-cv--data.json-0f172a?style=for-the-badge)](./cv-data.json)
 
 Repositorio público del portafolio y **hoja de vida web interactiva** de **Diego Alexander Sánchez Henao** — *Ingeniero de Datos, Desarrollador de Software y Candidato a Magíster en Ciencia de Datos (UPB)*, con más de 5 años de experiencia optimizando procesos de datos, auditoría interna y prevención de fraude para empresas como **Bancolombia, Nequi, Grupo Familia y GCO**.
 
-🌐 **Acceso directo a la página web interactiva:** [https://diego-0010619.github.io/](https://diego-0010619.github.io/)
+🌐 **Acceso directo a la página web interactiva:** [https://diego-0010619.github.io/Cv_Diego_Sanchez/](https://diego-0010619.github.io/Cv_Diego_Sanchez/)
 
 ---
 
@@ -50,7 +50,7 @@ Repositorio público del portafolio y **hoja de vida web interactiva** de **Dieg
 ## Estructura del Repositorio
 
 ```text
-diego-0010619.github.io/
+Cv_Diego_Sanchez/
 ├── index.html      # Estructura semántica, paleta Ctrl+K y metadatos SEO/OG
 ├── styles.css      # Sistema visual limpio (Light/Dark + hoja de impresión PDF)
 ├── data.js         # Contenido bilingüe (ES/EN) de experiencia, arquitecturas y skills
@@ -66,3 +66,4 @@ No requiere instalación de dependencias ni paso de compilación: abre directame
 ```bash
 python -m http.server 8000
 ```
+
