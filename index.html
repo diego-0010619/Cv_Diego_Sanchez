@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Alexander Sánchez Henao — Ingeniero de Datos &amp; Ciencia de Datos</title>
+  <meta name="description" content="Portafolio y hoja de vida interactiva de Diego Alexander Sánchez Henao: Ingeniero de Datos, Desarrollador de Software y Candidato a Magíster en Ciencia de Datos en Medellín, Colombia." />
+  <meta property="og:title" content="Diego Alexander Sánchez Henao — Data Engineer &amp; Data Science" />
+  <meta property="og:description" content="Más de 5 años optimizando pipelines de datos, modelos ML, auditoría interna y prevención de fraude para Bancolombia, Nequi, Grupo Familia y GCO." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Barra de progreso de lectura -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navegación flotante limpia -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Inicio">
+        <span class="brand-mark">DS</span>
+        <span class="brand-text">Diego Sánchez</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#impact" data-i18n="nav.impact">Impacto</a>
+        <a href="#experience" data-i18n="nav.experience">Experiencia</a>
+        <a href="#architecture" data-i18n="nav.architecture">Arquitecturas</a>
+        <a href="#skills" data-i18n="nav.skills">Habilidades</a>
+        <a href="#education" data-i18n="nav.education">Educación</a>
+        <a href="#references" data-i18n="nav.references">Referencias</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn cmd-trigger" id="cmdOpenBtn" type="button" title="Búsqueda rápida (Ctrl+K)" aria-label="Abrir búsqueda rápida">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <span class="kbd-hint">Ctrl K</span>
+        </button>
+        <button class="icon-btn" id="langToggle" type="button" title="Cambiar idioma ES / EN" aria-label="Cambiar idioma">
+          <span id="langLabel">EN</span>
+        </button>
+        <button class="icon-btn" id="themeToggle" type="button" title="Cambiar tema claro/oscuro" aria-label="Cambiar tema">
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO EDITORIAL CON RED DE DATOS INTERACTIVA -->
+    <section class="hero">
+      <canvas id="dataCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="status-pill">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span id="heroStatus">Medellín, Colombia · Data Engineering, ML &amp; Fraude</span>
+          </div>
+          <h1 class="hero-title">Diego Alexander<br />Sánchez Henao</h1>
+          <p class="hero-role" id="heroRole">Ingeniero de Datos · Desarrollador de Software · Candidato a Magíster en Ciencia de Datos</p>
+          <p class="hero-summary" id="heroSummary"></p>
+
+          <div class="hero-ctas">
+            <a href="#experience" class="btn btn-primary" id="ctaExperience">
+              <span>Explorar experiencia</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <button type="button" class="btn btn-secondary" id="printBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+              <span id="ctaDownload">Imprimir / Guardar PDF</span>
+            </button>
+            <button type="button" class="btn btn-ghost" id="copyEmailBtn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <span id="copyEmailLabel">Copiar correo</span>
+            </button>
+          </div>
+
+          <div class="hero-links">
+            <a href="mailto:DiegoUsbMed@gmail.com" class="meta-link">DiegoUsbMed@gmail.com</a>
+            <span class="sep" aria-hidden="true">•</span>
+            <a href="tel:+573117339372" class="meta-link">+57 311 733 93 72</a>
+            <span class="sep" aria-hidden="true">•</span>
+            <a href="https://www.linkedin.com/in/diegosanc" target="_blank" rel="noopener noreferrer" class="meta-link">linkedin.com/in/diegosanc</a>
+            <span class="sep" aria-hidden="true">•</span>
+            <a href="https://github.com/diego-0010619" target="_blank" rel="noopener noreferrer" class="meta-link">github.com/diego-0010619</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta de perfil estilo Data Pipeline Snapshot -->
+        <aside class="hero-card" aria-label="Resumen técnico rápido">
+          <div class="card-terminal-bar">
+            <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+            <span class="terminal-title">profile.pipeline.yml</span>
+          </div>
+          <div class="snapshot-body">
+            <div class="snapshot-row">
+              <span class="snap-key">current_role</span>
+              <span class="snap-val accent">Data Engineer @ GCO</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snap-key">masters</span>
+              <span class="snap-val">M.Sc. Data Science · UPB</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snap-key">enterprises</span>
+              <span class="snap-val">Bancolombia · Nequi · GCO · Grupo Familia</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snap-key">core_stack</span>
+              <span class="snap-val">Python · SQL Server · AWS Glue · Airflow · ML</span>
+            </div>
+            <div class="snapshot-row">
+              <span class="snap-key">observability</span>
+              <span class="snap-val">Dynatrace · Power BI · QuickSight · Azure DevOps</span>
+            </div>
+            <div class="snapshot-divider"></div>
+            <div class="snapshot-companies">
+              <span class="co-chip">GCO</span>
+              <span class="co-chip">Nequi</span>
+              <span class="co-chip">Bancolombia</span>
+              <span class="co-chip">Grupo Familia</span>
+              <span class="co-chip">PersonalSoft</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- MÉTRICAS DE IMPACTO (BENTO GRID) -->
+    <section class="section impact-section" id="impact">
+      <div class="container">
+        <div class="metrics-grid" id="metricsGrid"></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA PROFESIONAL INTERACTIVA -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" id="expEyebrow">TRAYECTORIA COMPROBADA</span>
+            <h2 class="section-title" id="expTitle">Experiencia Profesional</h2>
+            <p class="section-desc" id="expDesc"></p>
+          </div>
+          <div class="filter-bar" id="filterBar" role="tablist" aria-label="Filtrar experiencia"></div>
+        </div>
+
+        <div class="active-skill-banner hidden" id="activeSkillBanner">
+          <span><strong id="activeFilterPrefix">Filtro activo:</strong> <span class="skill-highlight-tag" id="activeSkillName"></span></span>
+          <button type="button" class="clear-filter-btn" id="clearSkillFilter">Limpiar filtro</button>
+        </div>
+
+        <div class="timeline" id="experienceList"></div>
+      </div>
+    </section>
+
+    <!-- ARQUITECTURAS DE IMPACTO (DIAGRAMA INTERACTIVO) -->
+    <section class="section section-alt" id="architecture">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" id="archEyebrow">SISTEMAS EN PRODUCCIÓN</span>
+            <h2 class="section-title" id="archTitle">Arquitecturas de Impacto</h2>
+            <p class="section-desc" id="archDesc"></p>
+          </div>
+        </div>
+
+        <div class="arch-tabs" id="archTabs" role="tablist" aria-label="Arquitecturas reales"></div>
+        <div class="arch-stage reveal" id="archStage"></div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES + RADAR SVG INTERACTIVO -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" id="skillsEyebrow">STACK TECNOLÓGICO</span>
+            <h2 class="section-title" id="skillsTitle">Habilidades &amp; Competencias</h2>
+            <p class="section-desc" id="skillsDesc"></p>
+          </div>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skills-groups" id="skillsGroups"></div>
+
+          <aside class="skills-aside reveal">
+            <div class="card radar-card">
+              <h3 class="card-subtitle" id="radarTitle">Balance de Competencias</h3>
+              <div class="radar-wrap" id="radarContainer"></div>
+            </div>
+            <div class="card lang-card">
+              <h3 class="card-subtitle" id="languagesTitle">Idiomas</h3>
+              <div class="lang-list" id="languagesList"></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCACIÓN & HONORES -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" id="eduEyebrow">FORMACIÓN ACADÉMICA</span>
+            <h2 class="section-title" id="eduTitle">Educación &amp; Honores</h2>
+          </div>
+        </div>
+        <div class="education-grid" id="educationGrid"></div>
+      </div>
+    </section>
+
+    <!-- REFERENCIAS PROFESIONALES -->
+    <section class="section" id="references">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow" id="refEyebrow">RESPALDO PROFESIONAL</span>
+            <h2 class="section-title" id="refTitle">Referencias Profesionales</h2>
+            <p class="section-desc" id="refPrivacyNote"></p>
+          </div>
+        </div>
+        <div class="references-grid" id="referencesGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER DE CONTACTO -->
+  <footer class="site-footer">
+    <div class="container footer-card reveal">
+      <div>
+        <h2 class="footer-title" id="contactTitle">¿Construimos el próximo pipeline o modelo de datos?</h2>
+        <p class="footer-subtitle" id="contactSubtitle"></p>
+      </div>
+      <div class="footer-actions">
+        <a href="mailto:DiegoUsbMed@gmail.com" class="btn btn-primary">DiegoUsbMed@gmail.com</a>
+        <a href="https://www.linkedin.com/in/diegosanc" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LinkedIn</a>
+        <a href="https://github.com/diego-0010619" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="yearNow">2026</span> Diego Alexander Sánchez Henao · Medellín, Colombia</span>
+      <a href="cv-data.json" target="_blank" rel="noopener noreferrer" class="json-link" id="jsonLinkLabel">Ver hoja de vida en formato JSON</a>
+    </div>
+  </footer>
+
+  <!-- PALETA DE COMANDOS (CTRL+K) -->
+  <div class="cmd-backdrop hidden" id="cmdBackdrop" role="dialog" aria-modal="true" aria-label="Búsqueda rápida">
+    <div class="cmd-modal">
+      <div class="cmd-input-wrap">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="cmdInput" autocomplete="off" placeholder="Buscar habilidad, empresa o acción..." />
+        <button type="button" class="cmd-esc" id="cmdCloseBtn">ESC</button>
+      </div>
+      <div class="cmd-results" id="cmdResults"></div>
+    </div>
+  </div>
+
+  <!-- TOAST DE NOTIFICACIÓN -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

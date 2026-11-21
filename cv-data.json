@@ -1,0 +1,122 @@
+{
+  "name": "Diego Alexander Sánchez Henao",
+  "title": "Ingeniero de Datos · Software Developer · Candidato a Magíster en Ciencia de Datos",
+  "location": "Medellín, Colombia",
+  "contact": {
+    "email": "DiegoUsbMed@gmail.com",
+    "phone": "+57 311 733 93 72",
+    "linkedin": "https://www.linkedin.com/in/diegosanc",
+    "github": "https://github.com/diego-0010619",
+    "website": "https://diego-0010619.github.io"
+  },
+  "summary": "Más de 5 años de experiencia como ingeniero de sistemas, administrador de bases de datos, desarrollador de software e ingeniero de datos. Logrando optimizar procesos para importantes empresas colombianas como Bancolombia, Nequi y GCO en las áreas de auditoría interna y gestión de fraude.",
+  "metrics": [
+    { "value": "5+", "label": "Años de experiencia", "detail": "Ingeniería de Datos, BD y Software" },
+    { "value": "90%", "label": "Reducción de manualidad", "detail": "Auditoría Interna · Bancolombia" },
+    { "value": "80%", "label": "Ahorro de tiempo operativo", "detail": "Automatización Python, VBA y AWS Glue" },
+    { "value": "100%", "label": "Cobertura en tiempo real", "detail": "Monitoreo antifraude App Nequi" }
+  ],
+  "experience": [
+    {
+      "company": "GCO",
+      "role": "Ingeniero de Datos",
+      "location": "Medellín, Colombia",
+      "period": "Agosto 2025 – actualmente",
+      "current": true,
+      "domains": ["ml", "etl", "auditoria"],
+      "highlights": [
+        "Desarrollar y desplegar modelos de Machine Learning para la clasificación automatizada de gastos no deducibles, mejorando la precisión y eficiencia en la gestión contable y fiscal.",
+        "Diseñar e implementar optimizaciones en pipelines de datos (ETLs), reduciendo tiempos de procesamiento y aumentando la confiabilidad en las cargas masivas de información.",
+        "Generar alertamientos enfocados en las prácticas de auditoría interna para prevenir la fuga de recursos financieros y físicos de la compañía."
+      ],
+      "skills": ["Machine Learning", "Python", "ETL Pipelines", "SQL Server", "Auditoría Interna", "Alertamiento"]
+    },
+    {
+      "company": "PersonalSoft",
+      "role": "Software Developer - Ingeniero de Datos",
+      "location": "Medellín, Colombia",
+      "period": "Febrero 2023 – Junio 2025",
+      "current": false,
+      "domains": ["fraude", "aws", "etl"],
+      "highlights": [
+        "Desarrollar ETLs y herramientas para diferentes frentes de gestión de fraude interno y externo (investigaciones, operaciones, línea especializada en seguridad LES y analítica), acelerando y optimizando la entrega de resultados con Python, VBA y AWS Glue.",
+        "Colaborar en entornos Agile utilizando Azure DevOps para gestión de backlog, planeación de sprints, control de versiones y ejecución de pipelines de CI/CD.",
+        "Construir dashboards y workflows para prevención y mitigación del fraude en tiempo real en Dynatrace, apoyando al equipo de monitoreo el 100% del tiempo de operación de la app Nequi.",
+        "Diseñar e implementar automatizaciones en VBA, Python y AWS Glue que eliminaron errores repetitivos y redujeron hasta en un 80% el tiempo requerido en tareas manuales estratégicas."
+      ],
+      "skills": ["Python", "AWS Glue", "VBA", "Dynatrace", "Azure DevOps", "CI/CD", "Agile", "Prevención de Fraude", "AWS Athena", "Apache Airflow"]
+    },
+    {
+      "company": "Igerencia - The Data Analysis Company",
+      "role": "Administrador de Bases de Datos - Ingeniero de Datos",
+      "location": "Medellín, Colombia",
+      "period": "Enero 2021 – Febrero 2023",
+      "current": false,
+      "domains": ["sql", "etl", "bi"],
+      "highlights": [
+        "Optimizar, ejecutar y diseñar consultas SQL para mantener al día el proceso de facturación completo de las principales distribuidoras del Grupo Familia, custodiando miles de millones de pesos en cada ejecución diariamente.",
+        "Desarrollar ETLs y dashboards para cumplir con los requerimientos de la SFC (Superintendencia Financiera de Colombia) con Python, Power BI y SQL en Bancolombia, colaborando en el análisis de grandes volúmenes de datos."
+      ],
+      "skills": ["SQL Server", "Optimización SQL", "Python", "Power BI", "ETL Pipelines", "Cumplimiento SFC"]
+    },
+    {
+      "company": "Bancolombia",
+      "role": "Aprendiz de Auditoría Interna",
+      "location": "Medellín, Colombia",
+      "period": "Enero 2021 – Febrero 2023",
+      "current": false,
+      "domains": ["auditoria", "etl"],
+      "highlights": [
+        "Optimizar procesos de auditoría interna, reduciendo la manualidad hasta en un 90% en ejecuciones diarias mediante herramientas ETL en Python y VBA."
+      ],
+      "skills": ["Python", "VBA", "ETL Pipelines", "Auditoría Interna"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Pontificia Bolivariana (UPB)",
+      "degree": "Magíster en Ciencia de Datos",
+      "location": "Medellín, Colombia",
+      "period": "Julio 2026 – Cursando",
+      "honors": "Investigación en Modelos Fundacionales de Series de Tiempo a Escala Big Data"
+    },
+    {
+      "institution": "Universidad de San Buenaventura",
+      "degree": "Ingeniero de Sistemas",
+      "location": "Medellín, Colombia",
+      "period": "Marzo 2021",
+      "honors": "Matrícula de Honor en 8.° semestre"
+    },
+    {
+      "institution": "SENA",
+      "degree": "Especialista en Administración y Seguridad de Bases de Datos",
+      "location": "Medellín, Colombia",
+      "period": "Agosto 2017",
+      "honors": null
+    },
+    {
+      "institution": "SENA",
+      "degree": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
+      "location": "Medellín, Colombia",
+      "period": "Abril 2016",
+      "honors": null
+    }
+  ],
+  "skills": {
+    "data_engineering": ["Python", "AWS Glue", "Apache Airflow", "ETL Pipelines", "VBA", "Automatización de Procesos"],
+    "cloud_and_analytics": ["AWS Athena", "AWS QuickSight", "Power BI", "Dynatrace", "Monitoreo en Tiempo Real"],
+    "databases": ["SQL Server", "Optimización SQL", "Administración de BD", "Seguridad de Bases de Datos"],
+    "machine_learning": ["Machine Learning", "Clasificación Automatizada", "Analítica de Grandes Datos", "Alertamiento"],
+    "devops_and_agile": ["Azure DevOps", "CI/CD", "Git", "Agile / Scrum"],
+    "languages": [
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Inglés", "level": "Intermedio" }
+    ]
+  },
+  "references": [
+    { "name": "Santiago Echeverri Lopez", "role": "Jefe de Auditoría Interna", "company": "GCO", "contact": "Disponible bajo solicitud" },
+    { "name": "Angel Alberto Mora Gaitin", "role": "Ingeniero de Datos", "company": "Nimble Gravity", "contact": "Disponible bajo solicitud" },
+    { "name": "Natalia Cruz Mejía", "role": "Auxiliar Administrativo de Gestión de Fraude", "company": "Nequi", "contact": "Disponible bajo solicitud" },
+    { "name": "Camilo Del Rio Flores", "role": "Ingeniero de Datos", "company": "Alcaldía de Itagüí", "contact": "Disponible bajo solicitud" }
+  ]
+}
