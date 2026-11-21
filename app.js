@@ -408,8 +408,8 @@
     const actions = [
       { label: c.meta.copyEmail, meta: "DiegoUsbMed@gmail.com", run: () => copyEmail() },
       { label: c.meta.ctaDownload, meta: "PDF / Print", run: () => window.print() },
-      { label: "LinkedIn", meta: "Diego Alexander Sánchez Henao", run: () => window.open("https://www.linkedin.com/in/diego-alexander-s%C3%A1nchez-henao-2733401b5/", "_blank") },
-      { label: "GitHub", meta: "github.com/diego-0010619", run: () => window.open("https://github.com/diego-0010619", "_blank") },
+      { label: "LinkedIn", meta: "Diego Alexander Sánchez Henao", run: () => window.open("https://www.linkedin.com/in/diego-alexander-sánchez-henao-2733401b5", "_blank", "noopener,noreferrer") },
+      { label: "GitHub", meta: "github.com/diego-0010619", run: () => window.open("https://github.com/diego-0010619", "_blank", "noopener,noreferrer") },
     ].filter((a) => !q || a.label.toLowerCase().includes(q) || a.meta.toLowerCase().includes(q));
 
     const roles = c.experience

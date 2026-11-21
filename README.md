@@ -1,7 +1,7 @@
 # Diego Alexander Sánchez Henao — Hoja de Vida & Portafolio Interactivo
 
 [![Sitio Web en Vivo](https://img.shields.io/badge/Sitio_Web-Cv__Diego__Sanchez-0d9488?style=for-the-badge)](https://diego-0010619.github.io/Cv_Diego_Sanchez/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_S%C3%A1nchez-2563eb?style=for-the-badge)](https://www.linkedin.com/in/diego-alexander-s%C3%A1nchez-henao-2733401b5/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Diego_S%C3%A1nchez-2563eb?style=for-the-badge)](https://www.linkedin.com/in/diego-alexander-sánchez-henao-2733401b5)
 [![JSON Resume](https://img.shields.io/badge/CV_Estructurado-cv--data.json-0f172a?style=for-the-badge)](./cv-data.json)
 
 Repositorio público del portafolio y **hoja de vida web interactiva** de **Diego Alexander Sánchez Henao** — *Ingeniero de Datos, Desarrollador de Software y Candidato a Magíster en Ciencia de Datos (UPB)*, con más de 5 años de experiencia optimizando procesos de datos, auditoría interna y prevención de fraude para empresas como **Bancolombia, Nequi, Grupo Familia y GCO**.
@@ -27,7 +27,7 @@ Repositorio público del portafolio y **hoja de vida web interactiva** de **Dieg
 - **Ubicación:** Medellín, Colombia
 - **Correo:** `DiegoUsbMed@gmail.com`
 - **Teléfono:** `+57 311 733 93 72`
-- **LinkedIn:** [Diego Alexander Sánchez Henao](https://www.linkedin.com/in/diego-alexander-s%C3%A1nchez-henao-2733401b5/)
+- **LinkedIn:** [www.linkedin.com/in/diego-alexander-sánchez-henao-2733401b5](https://www.linkedin.com/in/diego-alexander-sánchez-henao-2733401b5)
 
 ### Experiencia Profesional
 
