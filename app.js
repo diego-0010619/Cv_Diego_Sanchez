@@ -408,7 +408,7 @@
     const actions = [
       { label: c.meta.copyEmail, meta: "DiegoUsbMed@gmail.com", run: () => copyEmail() },
       { label: c.meta.ctaDownload, meta: "PDF / Print", run: () => window.print() },
-      { label: "LinkedIn", meta: "linkedin.com/in/diegosanc", run: () => window.open("https://www.linkedin.com/in/diegosanc", "_blank") },
+      { label: "LinkedIn", meta: "Diego Alexander Sánchez Henao", run: () => window.open("https://www.linkedin.com/in/diego-alexander-s%C3%A1nchez-henao-2733401b5/", "_blank") },
       { label: "GitHub", meta: "github.com/diego-0010619", run: () => window.open("https://github.com/diego-0010619", "_blank") },
     ].filter((a) => !q || a.label.toLowerCase().includes(q) || a.meta.toLowerCase().includes(q));
 
