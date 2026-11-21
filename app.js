@@ -295,7 +295,7 @@
       .join("");
 
     return `
-      <svg class="radar-svg" viewBox="-26 -14 332 308" role="img" aria-label="Competency radar">
+      <svg class="radar-svg" viewBox="-56 -16 392 312" role="img" aria-label="Competency radar">
         ${gridPolys}
         ${axes}
         <polygon points="${polyString}" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="2.2" />
